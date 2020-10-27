@@ -26,7 +26,7 @@ def numbers1(n):
     """
     Write code that will do the following:
     - return the square of n
-    You may assume that 'text' is a number
+    You may assume that 'n' is an integer
     """
 
     raise Exception("Not yet implemented")
