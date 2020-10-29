@@ -1,0 +1,144 @@
+Python 3.8.5 (default, Jul 28 2020, 12:59:40)
+[GCC 9.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print("hello")
+hello
+>>> names = ["bob", "sally", "jack"]
+>>> other = ["bob", 1, 12.3]
+>>> print(other)
+['bob', 1, 12.3]
+>>> print(other[0])
+bob
+>>> print(other[1])
+1
+>>> print(other[3])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: list index out of range
+>>> print(other[0].upper())
+BOB
+>>> print(other[0])
+bob
+>>> print(names)
+['bob', 'sally', 'jack']
+>>> names.append("jill")
+>>> print(names)
+['bob', 'sally', 'jack', 'jill']
+>>> friend = "james"
+>>> names.append(friend)
+>>> print(names)
+['bob', 'sally', 'jack', 'jill', 'james']
+>>> print(names[4])
+james
+>>> names[4] = "jamie"
+>>> print(names)
+['bob', 'sally', 'jack', 'jill', 'jamie']
+>>> names[10] = "billy"
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: list assignment index out of range
+>>> names[5] = "billy"
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: list assignment index out of range
+>>> print(names[-1])
+KeyboardInterrupt
+>>> clear
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'clear' is not defined
+>>> clear()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'clear' is not defined
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> print(names[-1])
+jamie
+>>> print(names)
+['bob', 'sally', 'jack', 'jill', 'jamie']
+>>> print(names[-2])
+jill
+>>> print(names[-5])
+bob
+>>> del names[4]
+>>> print(names)
+['bob', 'sally', 'jack', 'jill']
+>>> del names[1]
+>>> print(names)
+['bob', 'jack', 'jill']
+>>> names = ["jack", "jill", "billy", "bob", "jake", "john"]
+>>> print(names[0], names[1], names[2])
+jack jill billy
+>>> print(names[0], other[1])
+jack 1
+>>> print(names[0:3])
+['jack', 'jill', 'billy']
+>>> print(names)
+['jack', 'jill', 'billy', 'bob', 'jake', 'john']
+>>> print(names[3:0])
+[]
+>>> print(names[-3:0]
+... )
+[]
+>>> print(names[0:-3]
+... )
+['jack', 'jill', 'billy']
+>>> print(names[-5:-3])
+['jill', 'billy']
+>>> print(names[-3:-5])
+[]
+>>> print(names[:-1])
+['jack', 'jill', 'billy', 'bob', 'jake']
+>>> print(names[0:-2])
+['jack', 'jill', 'billy', 'bob']
+>>> len(names)
+6
+>>> max_index = len(names) - 1
+>>> print(names[len(names)])                                                       
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: list index out of range
+>>> print(names[len(max_index)])                                                   
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: object of type 'int' has no len()
+>>> print(names[max_index])                                                        
+john
+>>> len("some string")
+11
+>>> test = "some string"
+>>> print(test[0])
+s
+>>> print(test[0:5])
+some
+>>> names[1] = "random"
+>>> print(names)
+['jack', 'random', 'billy', 'bob', 'jake', 'john']
+>>> test[1] = "H"
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'str' object does not support item assignment
+>>> test
+'some string'
+>>> test = test + " some other string"
+>>> print(test)
+some string some other string
+>>> test = test - "string"
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for -: 'str' and 'str'
+>>>
+
