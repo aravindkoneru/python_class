@@ -2,7 +2,8 @@ ex = []
 [ex.append([]) for y in range(0,10)]
 [[ex[y].append(x) for x in range(y, 15)] for y in range(0, 10)]
 
-print(ex)
+[print(ex[x]) for x in range(0, len(ex))]
+
 
 # ex is a 2d array containing numbers. Do the following:
 
