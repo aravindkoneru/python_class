@@ -1,0 +1,72 @@
+Loop - a set of actions that are repeated
+
+by using a loop, you can reuse the same lines of code
+
+
+The code below is saying the following:
+-   names = ["billy", "bob", "joe"]
+-   for name in names:  # loop setup
+-       print(name)     # loop code
+-   print("done")       # end of loop
+-
+
+-   max = len(names)    # loop setup
+-   x =  0              # loop setup
+-   while x < max:      # loop setup
+-       name = names[x] # loop setup
+-       print(name)     # loop code 
+-       x = x + 1       # loop setup
+-   print("done")       # end of loop
+
+Scenarios: 
+----------
+x = 100
+-> loop won't run
+-> we learned: x has to be less than 3 if we want the loop to run. 
+    -> max value of x = 2
+
+x = 2
+-> loop will run once 
+-> output:
+    - joe
+    - done
+-> we learned: x has to start at 0 if we want to print out all elements of the list
+    -> x = 0 
+
+
+More Looping
+------------
+
+-   nums = [1,2,3,4,5,6,7,8]
+-   total = 0
+-   for num in nums:
+-       total = total + num
+-   print(total)
+
+Unraveling the loop: 
+--------------------
+total = 0
+num = 1
+total = 0 + 1 = 1
+
+num = 2
+total = 1 + 2 = 3
+
+num = 3
+total = 3 + 3 = 6
+
+num = 4
+total = 6 + 4 = 10
+
+num = 5
+total = 10 + 5 = 15
+
+num = 6
+total = 15 + 6 = 21
+
+num = 7
+total = 21 + 7 = 28
+
+num = 8
+total = 28 + 8 = 36
+
