@@ -1,0 +1,36 @@
+Iterate: access all the elements of a collection in an organized fashion
+    - ex. A for loop can be used to iterate through an array
+    - ex. You can iterate through an array using a loop
+
+----------------------------------------------------------------------------
+Given: names = ["bob", "billy", "sally"] ...
+    - Element: the name for the things contained within the list
+        - bob, billy, and sally are all elements of the list
+
+    - Index: the position of the element in the list
+        - bob is at index 0
+        - billy is at index 1
+        - sally is at index 2
+
+    - len(["bob", "billy", "sally"])=3: the number of elements in the list
+        - max_index = len(list) - 1
+        - max_index = last element of the list
+
+----------------------------------------------------------------------------
+names = ["bob", "joe", "billy"]
+name = names[1] # value of name = "joe"
+    - We say: "name is the element at index 1 in names"
+
+x = 0 <= random number <= len(list_name) - 1
+list_name[x] # returns the element at index 'x' 
+var_name = list_name[x]
+    - var_name  = the name of our variable
+    - list_name = the name of some variable that points to a list
+    - x         = some integer variable < max_index of list_name
+    - We say: "var_name is the element at index 'x' in list_name"
+
+----------------------------------------------------------------------------
+Loop Roadblocks:
+    - Confusing terminology
+    - Trouble with recalling old terms and concepts
+        - Extra practice will help
