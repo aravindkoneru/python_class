@@ -17,6 +17,6 @@ ex = []
 
 # 5. print only the second to last element in each list in ex
 
-# 5. Use a list comprehension to generate a list of the first 10 cubes
+# 6. Use a list comprehension to generate a list of the first 10 cubes
 
-# 6. Calculate the sum of the element in each list in ex
+# 7. Calculate the sum of the element in each list in ex
