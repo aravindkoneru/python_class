@@ -4,9 +4,9 @@ python string operations.
 
 Basic string operations include:
 - combining strings
+- checking if something is 'in' a string
 - length
 - substring using index
-- checking if something is 'in' a string
 - # occurences of a character in a string
 - replacing a character in a string with something else
 
@@ -65,11 +65,24 @@ def in_string(base_string, to_check):
     # we only get here if we didn't find to_check in base_string
     return False
 
+def length(string):
+    """
+    return the length of the string without using len()
+
+    args:
+    - string (string)
+
+    return:
+    - length of string as an integer
+    """
+
+
+
 
 
 result = combine_strings("some string", " other string")
 print(result)
 
-result = in_string("some string", "3")
+result = in_string("some string", "s")
 print(result)
 
