@@ -1,0 +1,40 @@
+20 * 10 = 200
+10 + 5 = 15
+...
+
+1. Ask the user for input
+    -  it will be in the following format: 
+        - x (op) y
+        - where (op) is one of: +, -, /, *, ^
+    - examples:
+        - 10 + 5
+        - 2 * 5
+        - 10 / 3
+
+2. Parse the input string into units
+    - in the case of x (op) y the units are:
+        - x
+        - y
+        - (op)
+    - hint: use the string.split() function
+
+3. Calculate the result of the statement and print it in the following format:
+    - x (op) y = result
+
+Program Input/Output Example:
+
+input: 1 + 2
+result: 1 + 2 = 3
+
+input: 2 + 3
+result: 2 + 3 = 5
+
+Conditions for success:
+- You need to use functions
+- after getting the input string, you are only allowed one print statement and one function call
+
+input = # ask user for input
+result = do-everything(input)
+print(f"{result}")
+
+do-everything can call multiple functions and it should call multiple functions
