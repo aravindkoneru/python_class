@@ -38,3 +38,14 @@ result = do-everything(input)
 print(f"{result}")
 
 do-everything can call multiple functions and it should call multiple functions
+
+def func_a():
+    pass
+
+def func_b():
+    pass
+
+def do-everything():
+    func_a()
+    func_b()
+
