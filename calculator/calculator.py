@@ -73,5 +73,3 @@ def solve_in_order(equation):
 equation = input("Enter equation: ")
 result = solve_in_order(equation)
 print(f"{equation} = {result}")
-
-
