@@ -39,7 +39,12 @@ def remove_duplicates(nums):
     ],
 )
 def test_remove_dupes(nums, expected):
+    print(f"start of test: {nums}")
+
     num_unique = remove_duplicates(nums)
 
     assert num_unique == len(expected)
     assert nums[:num_unique] == expected
+
+    print(f"end of test: {nums[:num_unique]}")
+    print(f"number of unique elements: {num_unique}\n\n")
